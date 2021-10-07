@@ -1,0 +1,16 @@
+.nav { 
+    width: 80%; 
+    height: 23px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+
+    &__links {
+        font-family: $mainfont;
+        font-size: 18px;
+    }
+
+    &__logo {
+        width: 91px;
+    }
+}

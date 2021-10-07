@@ -1,0 +1,9 @@
+@use 'fonts';
+
+@import 'nav';
+
+body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
