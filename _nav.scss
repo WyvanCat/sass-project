@@ -1,13 +1,19 @@
+@use 'fonts';
+
 .nav { 
     width: 80%; 
     height: 23px;
-    background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 61px;
+
 
     &__links {
-        font-family: $mainfont;
         font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 162px;
     }
 
     &__logo {

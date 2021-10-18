@@ -1,9 +1,15 @@
-@use 'fonts';
-
+@import 'fonts';
 @import 'nav';
+@import 'header';
+@import 'grid';
+@import 'awards';
+@import 'footer';
+@import 'fresh-new';
+@import 'contact';
 
 body { 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }

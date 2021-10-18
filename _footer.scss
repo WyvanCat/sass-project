@@ -1,0 +1,28 @@
+.footer { 
+    
+    margin-top: 114px;
+    margin-bottom: 47px;
+    width: 80%;
+    height: 23px;
+    display: flex; 
+    justify-content: space-between;
+    position: relative;
+
+    &__logo {
+        width: 90px;
+    }
+
+    &__links {
+        position: absolute; 
+        right: 210px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        width: 162px;
+    }
+
+    &__icon { 
+        scale: (1.1);
+        margin-left: 18px;
+    }
+}

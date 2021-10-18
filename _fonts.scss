@@ -1,1 +1,87 @@
 $main-font:'Mulish', sans-serif;
+
+.header__title {
+    font-family: $main-font;
+    font-weight: bold; 
+    font-size: 22px;
+    line-height: 28px;
+    color: #4A4FF2;
+}
+
+h2 { /* Titles */
+    font-family: $main-font;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 { /* Semi-Title */
+    font-family: $main-font;
+    font-weight: bold; 
+    font-size: 28px;
+    line-height: 38px;
+}
+
+h4 { /* Body */
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.header__quote { /* Body-Version */
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 400;
+    align-self: flex-end;
+    position: relative; 
+    bottom: 110px;
+    line-height: 30px;
+}
+
+span {
+    color:#4A4FF2;
+}
+
+a {
+    font-family: $main-font;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+
+.awards-font { 
+    font-family: $main-font;
+    font-weight: bold; 
+    color: black;
+    font-size: 22px;
+    align-self: flex-start;
+    
+}
+
+.list-font {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 38px;
+    color: gray;
+
+}
+
+.black {
+    color: #111111;
+}
+
+.standard-width { 
+    width: 80%;
+}
+
+.service-list__link { 
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+}

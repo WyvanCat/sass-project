@@ -1,0 +1,54 @@
+.form-text { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin-top: 110px;
+
+    &__text {
+        width: 444px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    &__contact { 
+        display: flex;
+        flex-direction: column;
+        max-width: 475px;
+        width: 100%;
+    }
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 100%;
+    OUTLINE: NONE;
+    BORDER: NONE;
+    BACKGROUND: TRANSPARENT;
+    BORDER-BOTTOM: 1PX SOLID #D8D8D8;
+    padding-bottom: 14px;
+    font-family: "Mulish",sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+}
+
+button { 
+    margin-top: 25px;
+    background-color: #4A4FF2;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 125px;
+    height: 50px;
+    border: none;
+    font-family: $main-font;
+}
+
+.map { 
+    width: 80%;
+    margin-top: 110px;
+}
